@@ -1,8 +1,4 @@
-"""
-Recruit360 Image Chatbot — Gemini/Imagen product image generator (GCP).
-Type a product description -> Vertex AI Imagen generates the image -> shown in chat.
-Auth: service account in st.secrets["gcp_service_account"] (Streamlit Cloud) or ADC (Colab).
-"""
+
 import os, json, io, base64
 import streamlit as st
 
